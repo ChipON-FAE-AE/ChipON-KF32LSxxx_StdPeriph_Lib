@@ -1,9 +1,9 @@
-#Wed Oct 14 12:39:23 CST 2020
+#Wed Nov 25 17:00:03 CST 2020
 eclipse.preferences.version=1
 kf32target/ChipPower=3
 kf32target/IspMode=78563412
 kf32target/Protect=5A5AA5A5
-kf32target/chipName=KF32LS200MQV
+kf32target/chipName=KF32LS500MQV
 kf32target/compilerType=ccr1_issue
 kf32target/debugMode=0
 kf32target/debugSpeed=60

@@ -9,8 +9,8 @@
 #ifndef __Kungfu32_chipmodel_define
 #define __Kungfu32_chipmodel_define
  
-#ifndef	KF32LS200MQV
-#define	KF32LS200MQV
+#ifndef	KF32LS500MQV
+#define	KF32LS500MQV
 #endif
  
 #endif /* __Kungfu32_chipmodel_define */
