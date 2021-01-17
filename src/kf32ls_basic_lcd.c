@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * 文件名  kf32l_basic_lcd.c
+  * 文件名  kf32ls_basic_lcd.c
   * 作  者  ChipON_AE/FAE_Group
-  * 版  本  V2.3
+  * 版  本  V2.4
   * 日  期  2019-11-16
   * 描  述  该文件提供了液晶显示(LCD)相关的功能函数，包含：
   *          + 液晶显示(LCD)初始化函数
@@ -16,7 +16,7 @@
 #include "kf32ls_basic_rst.h"
 #include "kf32ls_basic_pclk.h"
 
-#ifdef KF32L_Periph_lcd
+#ifdef KF32LS_Periph_lcd
 /* 定时器私有定义 ----------------------------------------------------*/
 /* LCD_CTL寄存器初始化掩码 */
 #define LCD_CTL_INIT_MASK               (LCD_CTL_LCDENANALOG \
@@ -1652,7 +1652,7 @@ LCD_Clear_Frame_INT_Flag (void)
 	}
 }
 
-#endif  //KF32L_Periph_lcd
+#endif  //KF32LS_Periph_lcd
 /**
   *   ##### 液晶显示(LCD)中断管理函数定义结束 #####
   */
